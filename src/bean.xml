@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+  <bean id="s1" class="com.tech.Student">
+  <constructor-arg value="100" type="int"></constructor-arg>
+  
+  </bean>
+  
+  <bean id="s2" class="com.tech.Student">
+  <constructor-arg value="Ms" type="String"></constructor-arg>
+  
+  </bean>
+  
+  <bean id="s3" class="com.tech.Student">
+   <constructor-arg value="18" type="int"></constructor-arg>
+  <constructor-arg value="Virat" type="String"></constructor-arg>
+  
+  </bean>
+  
+   <bean id="s4" class="com.tech.Student">
+  <constructor-arg value="Virat" type="String"></constructor-arg>
+  <constructor-arg value="virat@gmail.com" type="String"></constructor-arg>
+  
+  </bean>
+  
+   <bean id="s5" class="com.tech.Student">
+    <constructor-arg value="07" index="0"></constructor-arg>
+  <constructor-arg value="MsDhoni" index="1"></constructor-arg>
+  <constructor-arg value="msdhoni@gmail.com" index="2"></constructor-arg>
+  
+  </bean>
+	
+	</beans>
